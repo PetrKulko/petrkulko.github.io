@@ -429,166 +429,167 @@
   /* == / PROJECTS == */
 
   /* == CONTACT == */
-  .contact{
-    position: relative;
-    background-color: #0A1614;
-    padding: 0px 0px 88px;
+.contact{
+position: relative;
+background-color: #0A1614;
+padding: 0px 0px 88px;
 
-    &__inner{
-      background-color: #e3b603;
-      padding: 20px 0;
-      margin-bottom: 80px;
-    }
-
-    &__title{
-      font-family: 'Anton', sans-serif;
-      font-weight: 400;
-      color: #FCFAFA;
-      transform: rotate(-5deg);
-      font-size: 60px;
-      line-height: 88px;
-      text-align: center;
-      margin-bottom: 0;
-    }
-
-    &__form{
-      position: relative;
-
-      &._sending::after{
-        opacity: 1;
-        visibility: visible;
-      }
-
-      &::after{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        background: url(../img/loading.gif) center / 50px no-repeat;
-        visibility: hidden;
-        transition: $transition;
-      }
-
-      & input,
-      & textarea{
-        background-color: #C4C4C4;
-        border-radius: 30px;
-        font-family: 'Anton', sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 29px;
-        color: #5F5F5F;
-        letter-spacing: 0.05em;
-        outline: none;
-        border: none;
-        padding: 13px 13px 13px 65px;
-        resize: none;
-        width: 100%;
-        margin-bottom: 34px;
-        transition: $transition;
-
-        &::placeholder{
-          color: #5F5F5F;
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
-        }
-
-        &:focus{
-          background-color: #fcfafa;
-          transition: $transition;
-          box-shadow: 0px 0px 5px #fcfafa;
-        }
-      }
-
-      &-name{
-        display: block;
-        position: relative;
-
-        &::before{
-          content: "";
-          background: url(../img/form-person.svg) no-repeat;
-          position: absolute;
-          width: 30px;
-          height: 30px;
-          top: 10px;
-          left: 22px;
-        }
-      }
-
-      input._error{
-        box-shadow: 0 0 15px red;
-      }
-
-      &-email{
-        display: block;
-        position: relative;
-
-        &::before{
-          content: "";
-          background: url(../img/form-email.svg) no-repeat;
-          position: absolute;
-          width: 30px;
-          height: 30px;
-          top: 10px;
-          left: 22px;
-        }
-      }
-
-      &-message{
-        display: block;
-        position: relative;
-
-        & textarea{
-          padding-top: 18px;
-        }
-
-        &::before{
-          content: "";
-          background: url(../img/form-message.svg) no-repeat;
-          position: absolute;
-          width: 30px;
-          height: 30px;
-          top: 15px;
-          left: 22px;
-        }
-      }
-
-      &-btn{
-        font-family: 'Anton', sans-serif;
-        font-weight: 400;
-        background-color: #E3B603;
-        border-radius: 25px;
-        text-transform: uppercase;
-        color: #FCFAFA;
-        letter-spacing: 0.1em;
-        font-size: 18px;
-        line-height: 26px;
-        width: 150px;
-        padding: 14px 0;
-        border: none;
-        transition: $transition;
-        display: block;
-        margin: 0 auto;
-
-        &:hover{
-          background-color: #FFB800;
-          transition: $transition;
-        }
-
-        &:active{
-          color: #dddddd;
-        }
-      }
-    }
+ &__inner{
+  background-color: #e3b603;
+  padding: 20px 0;
+  margin-bottom: 80px;
   }
+
+   &__title{
+   font-family: 'Anton', sans-serif;
+   font-weight: 400;
+    color: #FCFAFA;
+       transform: rotate(-5deg);
+       font-size: 60px;
+       line-height: 88px;
+       text-align: center;
+       margin-bottom: 0;
+     }
+
+     &__form{
+       position: relative;
+
+       &._sending::after{
+         opacity: 1;
+         visibility: visible;
+       }
+
+       &::after{
+         content: "";
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         opacity: 0;
+         background: url(../img/loading.gif) center / 50px no-repeat;
+         visibility: hidden;
+         transition: $transition;
+       }
+
+       & input,
+       & textarea{
+         background-color: #C4C4C4;
+         border-radius: 30px;
+         font-family: 'Anton', sans-serif;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 29px;
+         color: #5F5F5F;
+         letter-spacing: 0.05em;
+         outline: none;
+         border: none;
+         padding: 13px 13px 13px 65px;
+         resize: none;
+         width: 100%;
+         margin-bottom: 34px;
+         transition: $transition;
+
+         &::placeholder{
+           color: #5F5F5F;
+           letter-spacing: 0.05em;
+           text-transform: uppercase;
+         }
+
+         &:focus{
+           background-color: #fcfafa;
+           transition: $transition;
+           box-shadow: 0px 0px 5px #fcfafa;
+       }
+       }
+
+       &-name{
+         display: block;
+         position: relative;
+
+         &::before{
+           content: "";
+           background: url(../img/form-person.svg) no-repeat;
+           position: absolute;
+           width: 30px;
+           height: 30px;
+           top: 10px;
+           left: 22px;
+         }
+       }
+
+       input._error{
+         box-shadow: 0 0 15px red;
+       }
+
+       &-email{
+         display: block;
+         position: relative;
+
+         &::before{
+           content: "";
+           background: url(../img/form-email.svg) no-repeat;
+           position: absolute;
+           width: 30px;
+           height: 30px;
+           top: 10px;
+          left: 22px;
+         }
+       }
+
+       &-message{
+         display: block;
+         position: relative;
+
+         & textarea{
+           padding-top: 18px;
+         }
+
+         &::before{
+           content: "";
+           background: url(../img/form-message.svg) no-repeat;
+           position: absolute;
+           width: 30px;
+           height: 30px;
+           top: 15px;
+           left: 22px;
+         }
+       }
+
+       &-btn{
+         font-family: 'Anton', sans-serif;
+         font-weight: 400;
+         background-color: #E3B603;
+         border-radius: 25px;
+         text-transform: uppercase;
+         color: #FCFAFA;
+         letter-spacing: 0.1em;
+         font-size: 18px;
+         line-height: 26px;
+         width: 150px;
+         padding: 14px 0;
+         border: none;
+         transition: $transition;
+         display: block;
+         margin: 0 auto;
+
+         &:hover{
+           background-color: #FFB800;
+           transition: $transition;
+         }
+
+         &:active{
+           color: #dddddd;
+         }
+       }
+     }
+   }
   /* == / CONTACT == */
   
   /* == FOOTER == */
   .footer{
     padding: 24px 0;
+    background-color: #FCFAFA;
 
       &__text{
         font-family: 'Lato', sans-serif;

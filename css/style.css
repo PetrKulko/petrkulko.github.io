@@ -685,6 +685,7 @@ footer {
 /* == FOOTER == */
 .footer {
   padding: 24px 0;
+  background-color: #FCFAFA;
 }
 
 .footer__text {
