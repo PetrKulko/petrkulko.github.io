@@ -31,13 +31,13 @@
                     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <nav class="header__navigation">
                             <ul class="header__navigation-items">
-                                <li><a class="header__navigation-link" data-goto=".main" href="/">ABOUT ME</a></li>
+                                <li><a class="header__navigation-link" data-goto=".projects" href="/">PROJECTS</a></li>
                                 <div class="header__navigation-logo">
                                     <a class="header__navigation-logo--link" href="/">
                                         <img class="header__navigation-logo--img" src="img/logo.svg" alt="logo">
                                     </a>
                                 </div>
-                                <li><a class="header__navigation-link" data-goto=".projects" href="/">PROJECTS</a></li>
+                                <li><a class="header__navigation-link" data-goto=".contact" href="/">CONTACT ME</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -310,15 +310,15 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                <form id="form" class="contact__form" data-aos="fade-up" method="POST"
-                                    action="https://formspree.io/f/mgerpaky">
+                                <form id="form" autocomplete="off" class="contact__form" data-aos="fade-up"
+                                    method="POST" action="https://formspree.io/f/mgerpaky">
                                     <div class="contact__form-name">
-                                        <input id="contact__form-name" class="contact__form-name--input _req"
+                                        <input id="contact__form-name" class="contact__form-name--input"
                                             autocomplete="disabled" name="name" required type="text" placeholder="NAME">
                                     </div>
                                     <div class="contact__form-email">
-                                        <input id="contact__form-email" class="contact__form-email--input _email _req"
-                                            autocomplete="disabled" name="email" required type="email"
+                                        <input id="contact__form-email" class="contact__form-email--input" name="email"
+                                            autocomplete="off" autocomplete="new-password" required type="email"
                                             placeholder="EMAIL">
                                     </div>
                                     <div class="contact__form-message">
