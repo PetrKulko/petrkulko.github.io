@@ -33,7 +33,7 @@ body, html {
   scroll-behavior: smooth;
 }
 
-body._lock {
+body.lock {
   overflow: hidden;
 }
 
@@ -103,6 +103,66 @@ footer {
 .header__navigation-items li a:hover::after {
   width: 100%;
   background-color: #e3b603;
+}
+
+.burger__btn {
+  display: none;
+  position: fixed;
+  width: 30px;
+  height: 20px;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.burger__btn::after, .burger__btn::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #e4b702;
+  width: 100%;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.burger__btn::after {
+  top: 0;
+}
+
+.burger__btn::before {
+  bottom: 0;
+}
+
+.burger__btn span {
+  border: 1px solid #e4b702;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 9px;
+}
+
+.burger__btn.active {
+  right: 23px;
+}
+
+.burger__btn.active::after {
+  -webkit-transform: rotate(-45deg) translate(0px, -50%);
+          transform: rotate(-45deg) translate(0px, -50%);
+  top: 50%;
+}
+
+.burger__btn.active::before {
+  -webkit-transform: rotate(45deg) translate(0px, 50%);
+          transform: rotate(45deg) translate(0px, 50%);
+  bottom: 50%;
+}
+
+.burger__btn.active span {
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
 
 /* == / HEADER == */
