@@ -35,7 +35,7 @@
 @media (max-width: 992px) {
   .main__img {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .main {
     padding: 155px 0 90px;
@@ -50,11 +50,16 @@
   .contact__form input, .contact__form textarea {
     margin-bottom: 25px;
   }
+  .main__img img {
+    width: 40%;
+  }
 }
 
 @media (max-width: 767px) {
   .header__navigation-items {
     top: -100%;
+    -webkit-transition: 0.1s ease 0s;
+    transition: 0.1s ease 0s;
   }
   .header__navigation-items.active {
     position: fixed;
@@ -251,6 +256,9 @@
   .footer__text {
     font-size: 12px;
     line-height: 12px;
+  }
+  .main__img img {
+    width: auto;
   }
 }
 
