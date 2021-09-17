@@ -120,7 +120,7 @@ footer {
 .burger__btn::after, .burger__btn::before {
   content: "";
   position: absolute;
-  border: 1px solid #e4b702;
+  border-bottom: 2px solid #e4b702;
   width: 100%;
   left: 0;
   right: 0;
@@ -137,9 +137,8 @@ footer {
 }
 
 .burger__btn span {
-  border: 1px solid #e4b702;
+  border-bottom: 2px solid #e4b702;
   width: 100%;
-  display: block;
   position: absolute;
   top: 9px;
 }

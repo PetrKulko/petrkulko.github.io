@@ -3,15 +3,12 @@
     font-size: 18px;
     margin-bottom: 70px;
   }
-  .main__about-title {
-    margin-bottom: 30px;
-  }
   .main {
-    padding: 175px 0 100px;
+    padding: 185px 0 100px;
     background-position: 40% 50%;
   }
   .main__about-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .main__about-social a i {
     margin-right: 35px;
@@ -38,14 +35,14 @@
     margin-bottom: 30px;
   }
   .main {
-    padding: 155px 0 90px;
+    padding: 185px 0 90px;
     background-position: 34% 50%;
   }
   .main__about-title {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
   .main__about-text {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
   }
   .contact__form input, .contact__form textarea {
     margin-bottom: 25px;
@@ -73,9 +70,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
     padding: 90px 20px;
     overflow: auto;
     -webkit-transition: top 0.3s ease 0s;
@@ -105,18 +102,14 @@
     padding: 125px 0 80px;
     background-position: 37% 50%;
   }
-  .main__about-title {
-    margin-bottom: 20px;
-  }
   .main__about-text {
-    margin-bottom: 50px;
     font-size: 15px;
   }
   .main__about-btn--resume {
     margin-bottom: 20px;
   }
   .main__about-wrapper {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   header {
     padding: 12px 0 12px;
@@ -184,6 +177,9 @@
   .contact__inner {
     margin-bottom: 50px;
   }
+  .main {
+    height: auto;
+  }
 }
 
 @media (max-width: 420px) {
@@ -197,10 +193,8 @@
   .main__about-title {
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 10px;
   }
   .main__about-text {
-    margin-bottom: 25px;
     font-size: 12px;
     line-height: 20px;
   }
@@ -211,9 +205,9 @@
     margin-right: 25px;
   }
   .header__navigation-items {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .projects {
     padding: 70px 0 85px;
@@ -258,7 +252,7 @@
     line-height: 12px;
   }
   .main__img img {
-    width: auto;
+    width: 60%;
   }
 }
 

@@ -111,7 +111,7 @@
     &::before{
       content: "";
       position: absolute;
-      border: 1px solid #e4b702;
+      border-bottom: 2px solid #e4b702;
       width: 100%;
       left: 0;
       right: 0;
@@ -127,9 +127,8 @@
     }
 
     & span{
-      border: 1px solid #e4b702;
+      border-bottom: 2px solid #e4b702;
       width: 100%;
-      display: block;
       position: absolute;
       top: 9px;
     }
